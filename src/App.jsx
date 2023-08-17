@@ -1,5 +1,12 @@
+import { Header } from "./components/Header";
+import "./App.css";
+
 function App() {
-  return <>DeepKart</>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
